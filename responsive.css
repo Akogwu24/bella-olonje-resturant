@@ -1,0 +1,241 @@
+@media (max-width: 1090px) {
+  .double-phone {
+    top: 58%;
+    left: 32%;
+  }
+}
+
+@media (max-width: 960px) {
+  .double-phone img {
+    display: none;
+  }
+
+  .double-phone h3 {
+    transform: translate(10%, 20rem);
+  }
+  .double-phone h3::before {
+    display: none;
+  }
+  .create-account-container {
+    margin-top: 10rem;
+  }
+  .bars {
+    display: block;
+  }
+  .bars:hover {
+    opacity: 0.7;
+  }
+  nav ul {
+    display: block;
+    position: fixed;
+    top: 83px;
+    right: -500px;
+    background: #d66f4a;
+    width: 40%;
+    height: 100vh;
+    padding: 30px;
+    transition: right 1s cubic-bezier(1, 0, 0, 1);
+    border-left: 1px solid rgba(24, 22, 17, 0.545);
+  }
+
+  nav ul li a {
+    color: white;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  nav ul li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddccc64b;
+  }
+}
+
+@media (max-width: 730px) {
+  .banner-section h1 {
+    font-size: 3rem;
+  }
+  .banner-section a {
+    padding: 8px 35px;
+    font-size: 1.4rem;
+  }
+  .double-phone h3 {
+    transform: translate(5%, 15rem);
+  }
+  .footer-icons img {
+    width: 20px;
+  }
+  nav ul {
+    width: 50%;
+  }
+}
+
+@media (max-width: 690px) {
+  .double-phone h3 {
+    transform: translate(-1rem, 15rem);
+  }
+  .create-account-container,
+  .explore-container,
+  .checkout-container {
+    flex-direction: column;
+    text-align: center;
+    margin: 5rem 0;
+  }
+  .create-account-text {
+    order: -1;
+  }
+  .create-account-text p {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  .checkout-text {
+    order: -1;
+  }
+  .explore-container,
+  .checkout-container {
+    padding-top: 0;
+  }
+
+  footer [alt="logo"] {
+    display: none;
+  }
+  footer .wrapper {
+    flex-direction: column;
+  }
+  footer .footer-icons {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .banner-section {
+    background: #fafafa;
+    padding: 20px 0;
+    height: 100%;
+  }
+  [alt*="phone"] {
+    max-width: 80%;
+    padding-top: 10px;
+  }
+
+  .banner-section h4 {
+    font-size: 1.5rem;
+    color: black;
+  }
+  .banner-section .wrapper p {
+    color: #737373;
+  }
+  .banner-section h1 {
+    font-size: 2.4rem;
+    color: black;
+  }
+  .banner-section a {
+    display: block;
+    max-width: 15rem;
+    margin: 20px auto;
+  }
+  .banner-section a + a {
+    color: #fa4a0c;
+    border: 1px solid #fa4a0c;
+  }
+  .double-phone img {
+    display: block;
+  }
+  .double-phone img {
+    max-width: 80%;
+  }
+  .double-phone {
+    top: 80%;
+    left: 10%;
+  }
+
+  .double-phone h3 {
+    transform: translate(-2rem, -7rem);
+    font-size: 2rem;
+    border-bottom: 1px solid #1414143f;
+  }
+
+  .bars {
+    top: 25px;
+    right: 50px;
+  }
+
+  .create-account-container,
+  .explore-container,
+  .checkout-container {
+    padding: 20px 0 0 0;
+  }
+
+  .create-account-text h4,
+  .explore-container h4,
+  .checkout-container h4 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  .create-account-text h3,
+  .explore-container h3,
+  .checkout-container h3 {
+    font-size: 1.9rem;
+    padding: 5px 0;
+    margin: 0 auto;
+  }
+  .create-account-container {
+    margin-top: 400px;
+  }
+  .create-account-text p,
+  .explore-container p,
+  .checkout-container p {
+    font-size: 1.2rem;
+  }
+  .create-account-text p {
+    margin-top: 5px;
+  }
+  .explore-container {
+    margin: 8rem 0 0 0;
+  }
+  .explore-img {
+    margin-top: -5rem;
+  }
+  .explore-container img,
+  .checkout-container img {
+    padding-top: 8rem;
+  }
+
+  .checkout-container {
+    margin-top: 10rem;
+  }
+  .checkout-img {
+    margin-top: -5rem;
+  }
+
+  .base-banner {
+    background: #252b42;
+    padding: 30px 10px 40px 10px;
+    height: 100%;
+  }
+  /* .base-banner .base-text {
+    /* padding: 30px 10px 50px 10px; }*/
+
+  .base-text h2,
+  .base-text p {
+    padding: 20px 0 50px;
+  }
+
+  .base-text h2 {
+    font-size: 2.5rem;
+  }
+  .show-mobile {
+    display: block;
+  }
+  .btn {
+    display: none;
+  }
+  .base-text a {
+    font-size: 1.1rem;
+    padding: 10px 25px;
+  }
+  nav ul {
+    width: 100%;
+  }
+}
