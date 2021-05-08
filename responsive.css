@@ -145,13 +145,15 @@
   }
   .double-phone img {
     display: block;
+    max-width: 100%;
   }
-  .double-phone img {
-    max-width: 80%;
-  }
+
   .double-phone {
-    top: 80%;
-    left: 10%;
+    transform: translate(-30%, 0%);
+    position: relative;
+  }
+  .double-mobile-section {
+    width: 100%;
   }
 
   .double-phone h3 {
@@ -185,7 +187,7 @@
     margin: 0 auto;
   }
   .create-account-container {
-    margin-top: 450px;
+    margin-top: 10px;
   }
   .create-account-text p,
   .explore-container p,
