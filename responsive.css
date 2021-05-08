@@ -96,7 +96,7 @@
     padding-top: 0;
   }
 
-  footer [alt="logo"] {
+  footer [alt='logo'] {
     display: none;
   }
   footer .wrapper {
@@ -109,12 +109,16 @@
 }
 
 @media (max-width: 450px) {
+  header {
+    height: 70px;
+  }
+
   .banner-section {
-    background: #fafafa;
+    background: #e8eef1;
     padding: 20px 0;
     height: 100%;
   }
-  [alt*="phone"] {
+  [alt*='phone'] {
     max-width: 80%;
     padding-top: 10px;
   }
@@ -158,7 +162,7 @@
 
   .bars {
     top: 25px;
-    right: 50px;
+    right: 30px;
   }
 
   .create-account-container,
@@ -181,7 +185,7 @@
     margin: 0 auto;
   }
   .create-account-container {
-    margin-top: 400px;
+    margin-top: 450px;
   }
   .create-account-text p,
   .explore-container p,
@@ -214,8 +218,6 @@
     padding: 30px 10px 40px 10px;
     height: 100%;
   }
-  /* .base-banner .base-text {
-    /* padding: 30px 10px 50px 10px; }*/
 
   .base-text h2,
   .base-text p {
